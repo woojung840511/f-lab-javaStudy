@@ -1,2 +1,4 @@
 rootProject.name = 'f-lab-javaStudy'
+include 'src:main:study'
+findProject(':src:main:study')?.name = 'study'
 
